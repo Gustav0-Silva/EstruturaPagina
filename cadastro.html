@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="_imagem/icone.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+    <title>Scout Team - Seu time, seus números</title>
+</head>
+<body>
+<header class="page-header">
+    
+    <section>
+    
+    <div class="logo" style="float: left;">
+    <img src="_imagem/LogoInserir.png" width="290px" height="180px" style="padding-left:400px; padding-top: 20px;">
+    </div>
+
+    <nav style="float: left; margin-left: 250px; margin-top: 170px;">
+            <h3 class="page-menu">
+            <a href="home.html">HOME</a>
+            <a href="sobre.html">SOBRE NÓS</a>
+            <a href="login.html">LOGIN</a>
+            <a href="cadastro.html">CADASTRE-SE</a>
+            </h3>
+    </nav>
+
+    
+</header>
+
+
+<form>
+    
+
+
+    <fieldset class="grupo">
+        <div class="campo">
+            <label for="NomeTime">Nome do Time</label>
+            <input type="text" name="NomeTime" id="NomeTime" required>
+        </div>
+
+        <div class="campo">
+            <label for="DataFund">Data de Fundação</label>
+            <input type="date" name="DataFund" id="DataFund" required>
+        </div>
+
+        <div class="campo">
+            <label for="quadra">Quadra Mandante</label>
+            <input type="text" name="quadra" id="quadra">
+        </div>
+
+        <div class="campo">
+            <label for="CidadeTime">Cidade do Time</label>
+            <input type="text" name="CidadeTime" id="CidadeTime" required>
+        </div>
+       
+        <div id="check">
+            <label>Qual o seu tipo de time?</label>
+            <br>
+            <label>
+                <input type="radio" name="tipotime" value="amigos">Amigos do Rachão                 
+            </label>
+            <label>
+                <input type="radio" name="tipotime" value="amador">Time Amador
+            </label>
+            <label>
+                <input type="radio" name="tipotime" value="profissional">Semi profissional
+            </label>
+        </div>
+    </fieldset>
+
+
+
+    <fieldset class="grupo">
+        <div class="campo">
+            <label>Nome do Administrador</label>
+            <input type="text" name="nome" id="nome" required>            
+        </div>
+
+        <div class="campo">
+            <label>Senha</label>
+            <input type="text" name="senha" id="senha" required>
+        </div>
+
+        <div class="campo">
+            <label>Data de Nascimento</label>
+            <input type="date" name="nasc" id="nasc" required>
+        </div>
+
+        <div class="campo">
+            <label>Cidade</label>
+            <input type="text" name="cidade" id="cidade" required>
+        </div>
+
+        <div class="campo">
+            <label>Estado</label>
+            <select id="estado">
+            <option selected disabled value="">Selecione</option>
+            <option>AC</option>  
+            <option>AL</option>              
+            <option>AP</option>
+            <option>AM</option>
+            <option>BA</option>
+            <option>CE</option>
+            <option>ES</option>
+            <option>GO</option>
+            <option>MA</option>
+            <option>MT</option>
+            <option>MS</option>
+            <option>MG</option>
+            <option>PA</option>
+            <option>PB</option>
+            <option>PE</option>
+            <option>PI</option>
+            <option>RJ</option>
+            <option>RN</option>
+            <option>RS</option>
+            <option>RO</option>
+            <option>RR</option>
+            <option>SC</option>
+            <option>SP</option>
+            <option>SE</option>
+            <option>TO</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label>E-mail</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+ 
+    </fieldset>
+
+    
+<button class="btn_cad" style="left: 780px; top: 160%;" type="button" onclick="alert('Desculpe, ainda não é possível acessar, página em desenvolvimento!')">Cadastrar!</button>
+</form>
+
+
+    
+<footer class="page-footer">
+    <p>Todos os direitos reservados</p>
+    </footer>
+    </section>
+    </main>
+    </body>
+    </html>
+
+</main>
